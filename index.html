@@ -4,71 +4,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Skeleton</title> <!-- page title -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body> 
-    <main>
     <header>
         <h1> Meet the best coding Team</h1>   
     </header>
 
+    <main>
+
+          <nav class="navbar">
+    <ul>
+      <li><a href="#Guntars">Guntars</a></li>
+      <li><a href="#Martins">Mārtiņš</a></li>
+      <li><a href="#Alyona">Alyona</a></li>
+      <li><a href="#Agnese">Agnese</a></li>
+    </ul>
+  </nav>
+
 <!-- <h2>Guntars</h2> Lets put this into a Section for each person with an ID  --> 
  <!-- Alyona: i have created a section id for each team member to make the navigation more clear. we will have just 1 section with all info per person-->
 
-<section id="guntars"> <h2>Guntars Nemiro</h2> 
+<section class="team-member" id="guntars"> <h2>Guntars Nemiro</h2> 
     <!-- Alyona: I have added figure tag i/o div tag for image, as google told me it's more correct and prettier this way :) -->
     <figure>
-        <img src="images/guntars.jpg" alt="Image description" width="200" > <!-- replace with your image path and description -->
+        <img class="team-member-img" src="images/guntars.jpg" alt="Image description" width="200"  > <!-- replace with your image path and description -->
     </figure>
 
 <h3>Short bio</h3>
 
     <ul>  
-    <li>sales professional</li>
-    <li>entrepreneur</li>
-    <li>real estate investor</li>
-    <li>stock market speculator</li>
+    <li>Sales professional</li>
+    <li>Entrepreneur</li>
+    <li>Real estate investor</li>
+    <li>Stock market speculator</li>
     </ul>  
 
 <h3>Fun facts</h3>
         <ul> 
-        <li>father of 3</li>
+        <li>Father of 3</li>
         <li>I ran my first marathon in Paris.</li>
         </ul> 
 
 <h3>Contacts</h3>
 <!-- Alyona: I have added tag address instead of p for contacts as semantically it is more correct  -->
-    <address>
-        Contact section with email/socials
+<address>
+        <ul>
+    <li>Email: <a href="mailto:guntars.nemiro@startschool.org">guntars.nemiro@startschool.org</a></li>
+    <li>Phone number: +371 28336656</li>
+        </ul>
     </address>
 </section>
 
-<section id="Martins"> <h2>Martins</h2> 
+<section class="team-member" id="Martins"> <h2>Martins</h2>  
  <figure>
-    <img src="images/Martins.jpg" alt="Image description" width="200" height="200"> <!-- replace with your image path and description -->
+    <img class="team-member-img" src="images/Martins.jpg" alt="Image description" width="200" height="200"> <!-- replace with your image path and description -->
  </figure> <!-- place for an Image  -->
 
 
 <h3>Short bio</h3>
 
         <ul> 
-            <li>Short Bio</li>
+            <li>Innovation manager</li>
+            <li>Endurance athlete</li>
+            <li>Product engineer</li>
         </ul> 
 
 <h3>Fun facts</h3>
         <ul> 
-            <li>Fun Facts</li>
+            <li>Loves adventure</li>
+            <li>Loves philosophy</li>
+            <li>Loves higher states of conciousness</li>
+            
         </ul> 
 
 <h3>Contacts</h3>
     <address>
-        Contact section with email/socials
+        <a href="mailto:martins.mozga@startschool.org">martins.mozga@startschool.org</a>
     </address>
 </section>
 
-<section id="Alyona"> <h2>Alyona</h2> 
+<section class="team-member" id="Alyona"> <h2>Alyona</h2> 
  <figure>
-    <img src="images/Alyona.jpeg" alt="Image description" width="200" > <!-- replace with your image path and description -->
+    <img class="team-member-img" src="images/Alyona.jpeg" alt="Image description" width="200" > <!-- replace with your image path and description -->
  </figure> 
 
 <h3>Short bio</h3>
@@ -92,24 +111,26 @@
     </address>
 </section>
 
-<section id="Agnese"> <h2>Agnese</h2> 
+<section class="team-member" id="Agnese"> <h2>Agnese</h2> 
  <figure>
-    <img src="images/Agnese.jpg" alt="Image description" width="200" > <!-- replace with your image path and description -->
+    <img class="team-member-img" src="images/Agnese.jpg" alt="Image description" width="200" > <!-- replace with your image path and description -->
  </figure> 
 
 <h3>Short bio</h3>
     <ul>
-        <li>Short bio</li>
+        <li>StartSchool student</li>
     </ul>
 
 <h3>Fun facts</h3>
     <ul>
-        <li>fun facts</li>
+        <li>I don't eat olives</li>
+        <li>I hate bright red colour</li>
+        <li>I don't use Facebook, Instagram and X</li>
     </ul>
 
 <h3>Contacts</h3>
     <address>
-        <a href="mailto:agnese...@startschool.org">agnese...@startschool.org</a>
+        <a href="mailto:agnese.misane@startschool.org">agnese.misane@startschool.org</a>
     </address>
 </section>
 
