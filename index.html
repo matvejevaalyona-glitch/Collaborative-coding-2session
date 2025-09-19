@@ -4,108 +4,137 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Skeleton</title> <!-- page title -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body> 
-    <main>
     <header>
         <h1> Meet the best coding Team</h1>   
     </header>
 
+    <main>
+
+          <nav class="navbar">
+    <ul>
+      <li><a href="#Guntars">Guntars</a></li>
+      <li><a href="#Martins">Mārtiņš</a></li>
+      <li><a href="#Alyona">Alyona</a></li>
+      <li><a href="#Agnese">Agnese</a></li>
+    </ul>
+  </nav>
+
 <!-- <h2>Guntars</h2> Lets put this into a Section for each person with an ID  --> 
-<div>
-    <img src="images/guntars.jpg" alt="Image description" width="200" > <!-- replace with your image path and description -->
-</div> <!-- place for an Image  -->
+ <!-- Alyona: i have created a section id for each team member to make the navigation more clear. we will have just 1 section with all info per person-->
 
-<section> 
-    <h2>Guntars Nemiro</h2> 
+<section class="team-member" id="guntars"> <h2>Guntars Nemiro</h2> 
+    <!-- Alyona: I have added figure tag i/o div tag for image, as google told me it's more correct and prettier this way :) -->
+    <figure>
+        <img class="team-member-img" src="images/guntars.jpg" alt="Image description" width="200"  > <!-- replace with your image path and description -->
+    </figure>
+
 <h3>Short bio</h3>
-    <p> 
+
     <ul>  
-    <li>sales professional</li>
-    <li>entrepreneur</li>
-    <li>real estate investor</li>
-    <li>stock market speculator</li>
+    <li>Sales professional</li>
+    <li>Entrepreneur</li>
+    <li>Real estate investor</li>
+    <li>Stock market speculator</li>
     </ul>  
-    </p>
-</section>
 
-<section>
 <h3>Fun facts</h3>
-    <p>
-        <li>father of 3</li>
+        <ul> 
+        <li>Father of 3</li>
         <li>I ran my first marathon in Paris.</li>
-    </p>
-</section>
+        </ul> 
 
-<section>
 <h3>Contacts</h3>
-    <p>
-        Contact section with email/socials
-    </p>
+<!-- Alyona: I have added tag address instead of p for contacts as semantically it is more correct  -->
+<address>
+        <ul>
+    <li>Email: <a href="mailto:guntars.nemiro@startschool.org">guntars.nemiro@startschool.org</a></li>
+    <li>Phone number: +371 28336656</li>
+        </ul>
+    </address>
 </section>
 
-<h2>Martins</h2>  
-<div>
-    <img src="images/Martins.jpg" alt="Image description" width="200" height="200"> <!-- replace with your image path and description -->
-</div> <!-- place for an Image  -->
+<section class="team-member" id="Martins"> <h2>Martins</h2>  
+ <figure>
+    <img class="team-member-img" src="images/Martins.jpg" alt="Image description" width="200" height="200"> <!-- replace with your image path and description -->
+ </figure> <!-- place for an Image  -->
 
-<section>  
+
 <h3>Short bio</h3>
-    <p> 
-      Short Bio
-    </p>
-</section>
 
-<section>
+        <ul> 
+            <li>Innovation manager</li>
+            <li>Endurance athlete</li>
+            <li>Product engineer</li>
+        </ul> 
+
 <h3>Fun facts</h3>
-    <p>
-        1–3 fun fact sections
-    </p>
-</section>
+        <ul> 
+            <li>Loves adventure</li>
+            <li>Loves philosophy</li>
+            <li>Loves higher states of conciousness</li>
+            
+        </ul> 
 
-<section>
 <h3>Contacts</h3>
-    <p>
-        Contact section with email/socials
-    </p>
+    <address>
+        <a href="mailto:martins.mozga@startschool.org">martins.mozga@startschool.org</a>
+         <li>Phone number: +371 26674**</li>
+    </address>
 </section>
 
-</main>
+<section class="team-member" id="Alyona"> <h2>Alyona</h2> 
+ <figure>
+    <img class="team-member-img" src="images/Alyona.jpeg" alt="Image description" width="200" > <!-- replace with your image path and description -->
+ </figure> 
 
-<footer>Contact our team</footer>
-
-</body>
-
-
-<h2>Alyona</h2>  
-<div>
-    <img src="images/Alyona.jpeg" alt="Image description" width="200" > <!-- replace with your image path and description -->
-</div> <!-- place for an Image  -->
-
-<section>  
 <h3>Short bio</h3>
-    <p> 
     <ul>
         <li>Real Estate Investor</li>
         <li>Homestager</li>
         <li>Mom of 2</li>
     </ul>
-    </p>
-</section>
-
-<section>
+ 
 <h3>Fun facts</h3>
-    <p>
-        My biggest phobia is..spiders
-    </p>
+    <ul>
+        <li>My biggest phobia is..spiders</li>
+    </ul>
+
+<h3>Contacts</h3>
+    <address>
+        <ul>
+    <li>Email: <a href="mailto:alyona.matvejeva@startschool.org">alyona.matvejeva@startschool.org</a></li>
+    <li>Discord: alyonamatvejeva_07442</a></li>
+        </ul>
+    </address>
 </section>
 
-<section>
+<section class="team-member" id="Agnese"> <h2>Agnese</h2> 
+ <figure>
+    <img class="team-member-img" src="images/Agnese.jpg" alt="Image description" width="200" > <!-- replace with your image path and description -->
+ </figure> 
+
+<h3>Short bio</h3>
+    <ul>
+        <li>StartSchool student</li>
+    </ul>
+
+<h3>Fun facts</h3>
+    <ul>
+        <li>I don't eat olives</li>
+        <li>I hate bright red colour</li>
+        <li>I don't use Facebook, Instagram and X</li>
+    </ul>
+
 <h3>Contacts</h3>
-    <p>
-        <a href="mailto:alyona.matvejeva@startschool.org">alyona.matvejeva@startschool.org</a>Contact section with email/socials
-    </p>
+    <address>
+        <li>Email: <a href="mailto:agnese.misane@startschool.org">agnese.misane@startschool.org</a></li>
+        <li>Phone number: +371 ********</li>
+        <li>Discord: agnesemisane</a></li>
+    </address>
 </section>
 
 </main>
