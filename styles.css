@@ -1,82 +1,120 @@
 body {
-    font-family: Aptos, sans-serif;
-    margin: 20px;
-    background-color: #040404;
-    color: #eb82cd;
+  font-family: Aptos, sans-serif;
+  margin: 20px;
+  background-color: #969494;
+  color: #080007;
 }
-main{
-    background-color: #1c1c1c;
-    padding: 20px;
-    border-radius: 10px;
+footer {
+  text-align: center;
+  margin-top: 20px;
+  border-top: 2px solid #ccc;
+  padding-top: 10px;
+  font-size: 0.9em;
+  color: #555;
 }
-header{
-    text-align: center;
-    margin-bottom: 20px;
-    border-bottom: 2px solid #ccc;
+
+main {
+  background-color: #969494;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #ccc;
+}
+
+button {
+  background-color: #1912a8;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
 }
 
 .team-member-heading {
-    text-align: center;
-    margin-bottom: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #d38bc5;
 }
 
 .navbar ul {
   list-style: none;
   margin: 0;
   padding: 0;
-  display: flex;            
-  justify-content: center;    
-  gap: 40px;    
+  display: flex;
+  justify-content: center;
+  gap: 40px;
   margin-bottom: 40px;
- 
 }
 
 .navbar a {
-    color:  #eb82cd;
+  color: #9b1781;
 }
 
-
 .team-member {
-    border: 2px solid #eb82cd;
-    border-radius: 10px;
-    padding: 20px;
-    margin-bottom: 20px;
-    background-color: #2c2c2c;
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 40px;
-    padding: 20px;
-    align-items: flex-start;
-    
-    
+  border: 2px solid #9b1781;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #4c4b4b;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+  padding: 20px;
+  align-items: flex-start;
+  color: #d38bc5;
 }
 
 .team-member h3 {
-    flex-basis: 100%; /* Forces the heading to a new line */
+  flex-basis: 100%; /* Forces the heading to a new line */
 }
 
-.team-member img{
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 50%;
-    margin: 0;
-    margin-bottom: 10px;
-    flex-basis: 200px;
-    margin-right: 30px;
+.team-member img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 0;
+  margin-bottom: 10px;
+  flex-basis: 200px;
+  margin-right: 30px;
 }
 
-#guntars .team-member-img{
-    object-position: 93% center; 
+#guntars .team-member-img {
+  object-position: 93% center;
 }
 
 address a {
-    color: #1912a8;
-    text-decoration: none;
-    transition: color 0.3s ease;
+  color: #1912a8;
+  text-decoration: none;
+  transition: color 0.3s ease;
 }
 address a:hover {
-    color: #a607e5;
-    text-decoration: underline;
+  color: #a607e5;
+  text-decoration: underline;
 }
 
+.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+.dark-mode main {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.dark-mode .team-member {
+
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.dark.mode main {
+   background-color: #171616; 
+   color: #d38bc5;
+}

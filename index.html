@@ -3,17 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Skeleton</title> <!-- page title -->
+    <title>The Skeleton</title> 
     <link rel="stylesheet" href="styles.css">
+
 </head>
 
 <body> 
     <header>
-        <h1> Meet the best coding Team</h1>   
+        <h1> Meet the best coding Team</h1> 
+        <button id="mode">Dark/Light Mode</button>
     </header>
 
-    <main>
+    <button id="randomFactBtn">Show Random Fun Fact</button>
 
+    <main>
           <nav class="navbar">
     <ul>
       <li><a href="#Guntars">Guntars</a></li>
@@ -23,14 +26,10 @@
     </ul>
   </nav>
 
-<!-- <h2>Guntars</h2> Lets put this into a Section for each person with an ID  --> 
- <!-- Alyona: i have created a section id for each team member to make the navigation more clear. we will have just 1 section with all info per person-->
-
 <section class="team-member" id="guntars"> <h2 class="team-member-heading">Guntars Nemiro</h2> 
-    <!-- Alyona: I have added figure tag i/o div tag for image, as google told me it's more correct and prettier this way :) -->
+
     <figure>
-        <img class="team-member-img" src="images/guntars.jpg" alt="Photo of Guntars" width="200"  > <!-- replace with your image path and description -->
-    </figure>
+        <img class="team-member-img" src="images/guntars.jpg" alt="Photo of Guntars" width="200" height="200"  > 
 
 <h3>Short bio</h3>
 
@@ -48,7 +47,7 @@
         </ul> 
 
 <h3>Contacts</h3>
-<!-- Alyona: I have added tag address instead of p for contacts as semantically it is more correct  -->
+
 <address>
         <ul>
     <li>Email: <a href="mailto:guntars.nemiro@startschool.org">guntars.nemiro@startschool.org</a></li>
@@ -60,8 +59,7 @@
 <section class="team-member" id="Martins"> <h2 class="team-member-heading">Martins</h2> 
  <figure>
     <img class="team-member-img" src="images/Martins.jpg" alt="Photo of Martins" width="200" height="200"> <!-- replace with your image path and description -->
- </figure> <!-- place for an Image  -->
-
+ </figure> 
 
 <h3>Short bio</h3>
 
@@ -85,12 +83,14 @@
          <li>Phone number: +371 26674**</li>
          </ul>
     </address>
+
 </section>
 
 <section class="team-member" id="Alyona"> <h2 class="team-member-heading">Alyona</h2>
- <figure>
-    <img class="team-member-img" src="images/Alyona.jpeg" alt="Photo of Alyona" width="200" > <!-- replace with your image path and description -->
- </figure> 
+
+    <figure>
+    <img class="team-member-img" src="images/Alyona.jpeg" alt="Photo of Alyona" width="200" >
+    </figure> 
 
 <h3>Short bio</h3>
     <ul>
@@ -114,10 +114,12 @@
     <li>Phone number: +371 2676****</li>
         </ul>
     </address>
+
 </section>
 
 <section class="team-member" id="Agnese"> <h2 class="team-member-heading">Agnese</h2>
- <figure>
+
+    <figure>
     <img class="team-member-img" src="images/Agnese.jpg" alt="Photo of Agnese" width="200" > <!-- replace with your image path and description -->
  </figure> 
 
@@ -138,14 +140,15 @@
         <ul>
         <li>Email: <a href="mailto:agnese.misane@startschool.org">agnese.misane@startschool.org</a></li>
         <li>Phone number: +371 ********</li>
-        <li>Discord: agnesemisane</a></li>
+        <li>Discord: <a href="some-discord-link">agnesemisane</a></li> 
         </ul>
     </address>
 </section>
-
 </main>
 
-<footer>Contact our team</footer>
+<footer> Best way to contact us? Connect on Discord! </footer>
+<script src="script.js"></script>
 
 </body>
+
 </html>
