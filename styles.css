@@ -1,11 +1,17 @@
 body {
     font-family: Aptos, sans-serif;
     margin: 20px;
-    background-color: #040404;
-    color: #eb82cd;
+    background-color: #f7f7f7; 
+    color: #1c1c1c;
 }
+
+.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0; 
+}
+
 main{
-    background-color: #1c1c1c;
+    background-color: #ffffff; 
     padding: 20px;
     border-radius: 10px;
 }
